@@ -1,0 +1,47 @@
+.table__wrapper {
+  padding: 20px;
+  margin: 28px auto;
+  width: 94%;
+  border: 1.5px solid black;
+  border-radius: 8px;
+}
+
+.table__wrapper h3 {
+  margin-bottom: 18px;
+}
+
+.table__wrapper th {
+  padding: 8px;
+  text-align: start;
+}
+
+.table__content {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__content th,
+.table__content td {
+  padding: 8px;
+}
+
+.table__wrapper table tr:first-child {
+  border-top: 1px solid black;
+}
+
+.highlighted {
+  color: rgb(70, 192, 233);
+}
+
+.buttons button {
+  margin: 4px;
+  padding: 2px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.buttons {
+  text-align: center;
+}

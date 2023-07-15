@@ -1,0 +1,21 @@
+.cards {
+  display: inline-block;
+  margin-left: 10rem;
+  text-align: center;
+}
+
+.cards__inner {
+  border: 1.8px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.cards__inner h4 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.cards__inner p {
+  font-weight: 500;
+}
